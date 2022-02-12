@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css"/>
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="h1">CONTACT FORM</div>
+    <div class="float-container">
+        <div class="float-child">
+            <form action="get_it.html" method="get">
+                <div>
+                    <span><label>
+                        <input required class="name" minlength="2" maxlength="50" name="name" placeholder="YOUR NAME"/>
+                    </label></span>
+                </div>
+                <div>
+                    <span><label>
+                        <input required class="email" 
+                               style="width: 490px; height: 35px;" 
+                               minlength="2" maxlength="50" 
+                               name="email" 
+                               placeholder="YOUR EMAIL ADRESS"/>
+                    </label></span>
+                </div>
+                <div>
+                   <span><label>
+                       <input required class="company"
+                              style="width: 230px; height: 35px;"
+                              minlength="2" maxlength="50"
+                              name="company" 
+                              placeholder="COMPANY"/>   
+                  </label></span>
+                  <span><label>
+                      <input required class="phone" 
+                             style="width: 230px; height: 35px;" 
+                             minlength="2" maxlength="50" 
+                             name="phone" 
+                             placeholder="PHONE"/>   
+                  </label></span>
+               </div>
+               <div>
+                 <label>
+                    <input required class= "text" 
+                           style="width: 490px; height: 80px;" 
+                           minlength="20" maxlength="500" 
+                           name="message" 
+                           placeholder="YOUR MESSAGE"/>  
+                  </label>
+                </div>
+                    <input class="send" 
+                           style="width: 150px; height: 30px;" 
+                           type="submit" 
+                           value="SEND MESSAGE" />
+            </form>
+        </div>
+    </div>
+    <div class="float-child">
+        <div class="h2">YOU CAN FIND US HERE</div>
+        <div class="sample">SAMPLE ADRESS, SAMPLE STREET. 123/45</div>
+        <div class="or">OR ON MAPS</div>
+        <ul>
+            <li><div class="number">&#43;3 (000) 0123 3210</div></li>
+            <li><div class="number">&#43;3 (000) 0456 3210</div></li> 
+        </ul>
+    </div>
+</body>
+</html>

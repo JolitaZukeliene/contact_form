@@ -1,0 +1,118 @@
+body {
+    background-color: #11cfcf;
+}
+.h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #11cfcf;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c7c7c7;
+    background-color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-inline: 10px;
+    width: 490px; height: 35px;
+}
+.float-child {
+    background-color: #11cfcf;
+    height: 500px;
+    width: 50%;
+    float: left;
+    color:#ffff
+}
+.email {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c7c7c7;
+    background-color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-inline: 10px;
+}
+.phone {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c7c7c7;
+    background-color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-inline: 10px;
+}
+.company {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c7c7c7;
+    background-color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-inline: 10px;
+}
+.text {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #c7c7c7;
+    background-color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-inline: 10px;
+}
+::placeholder {color: #c7c7c7;}
+.send {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #fcea3c;
+    border-radius: 2px;
+    border-style: none;
+    border-bottom: 15px;
+    margin-bottom: 15px;
+    margin-left: 350px;
+}
+.h2 {
+    font-size: xx-large;
+    font-family:'Lucida Sans Unicode';
+    font-weight: 500px;
+    background-color: #11cfcf;
+    color: #e7e9fe;
+    margin-top: 50px;
+    text-align: left;
+    padding-inline-start: 16px;
+}
+.sample {
+    font-size: 15px;
+    font-weight: 10px;
+    font-family:'Lucida Sans Unicode';
+    background-color: #11cfcf;
+    color: #e7e9fe;
+    text-align: left;
+    padding-inline-start: 16px;
+}
+.or {
+    font-size: 15px;
+    font-weight: 10px;
+    font-family:'Lucida Sans Unicode';
+    background-color: #11cfcf;
+    color: yellow;
+    margin-top: 10px;
+    padding-inline-start: 16px;
+}
+.number {
+    font-size: 15px;
+    font-weight: 10px;
+    font-family:'Lucida Sans Unicode';
+    background-color: #11cfcf;
+    color: #e7e9fe;
+    padding-inline-start: 16px;
+}
